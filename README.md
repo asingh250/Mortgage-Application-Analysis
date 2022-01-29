@@ -1,5 +1,5 @@
 # Mortgage-Application-Analysis
-Create a machine learning model which will predict if the mortgage will be approved or not based on 5 variables: age, income level, occupancy type, accepted, and debt-income ratio. Eliminating all the demographic bias except for age
+Create a machine learning model which will predict if the mortgage will be approved or not based on 5 variables: age, income level, occupancy type, accepted, and debt-income ratio, Eliminating all the demographic bias except for age
 We picked 5 attributes from the Mortgage data set provided and created a separate *.csv file to avoid extra data loss from the null values of the attributes which we neglect in our model.
 We preprocessed the data to drop any null values of the applicants which might skew our datasets using the pandas library
 For the processing part, we had some classification data with controlled intervals. We used Ordinal encoding to convert those into numeric discrete data for training and testing our model. We also had one, unique string data attribute, which was encoded using One-hot encoding to extract numeric values for processing.
